@@ -72,8 +72,6 @@ Ref:
 * Benefits section
 * Clean footer with links
 
-*(You can add screenshots later by uploading images to GitHub and linking here.)*
-
 ---
 
 ## ⚙️ How to Run the Project
