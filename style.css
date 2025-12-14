@@ -10,6 +10,7 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #fff;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -69,6 +70,8 @@ body {
     padding: 8px 20px;
     color: #00a651;
     font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s;
 }
 
 .btn-outline:hover {
@@ -296,6 +299,74 @@ body {
     font-size: 14px;
 }
 
+/* FAQ Section */
+.faq {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 50px;
+    color: #222;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 10px;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.faq-question:hover {
+    color: #00a651;
+}
+
+.faq-question h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.faq-icon {
+    font-size: 24px;
+    font-weight: 300;
+    transition: transform 0.3s;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.faq-answer p {
+    padding: 0 0 20px 0;
+    color: #666;
+    line-height: 1.7;
+}
+
+.faq-item.active .faq-answer {
+    max-height: 200px;
+}
+
+.faq-item.active .faq-icon {
+    transform: rotate(45deg);
+}
+
 /* Footer */
 .footer {
     background-color: #222;
@@ -321,6 +392,24 @@ body {
     color: #aaa;
     line-height: 1.7;
     margin-bottom: 20px;
+}
+
+/* Footer Contact */
+.footer-contact {
+    margin-top: 15px;
+}
+
+.footer-contact p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    color: #aaa;
+}
+
+.footer-contact i {
+    color: #00a651;
+    width: 20px;
 }
 
 .footer-links {
@@ -379,6 +468,10 @@ body {
     .feature-grid, .benefits-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+    
+    .section-title {
+        font-size: 32px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -433,6 +526,15 @@ body {
         grid-template-columns: 1fr;
     }
     
+    .section-title {
+        font-size: 28px;
+    }
+    
+    .faq-question h3 {
+        font-size: 16px;
+        padding-right: 20px;
+    }
+    
     .footer-bottom {
         flex-direction: column;
         gap: 20px;
@@ -460,5 +562,17 @@ body {
     
     .feature-card, .benefit-card {
         padding: 30px 20px;
+    }
+    
+    .final-cta {
+        padding: 40px 20px;
+    }
+    
+    .final-cta-title {
+        font-size: 24px;
+    }
+    
+    .section-title {
+        font-size: 24px;
     }
 }
