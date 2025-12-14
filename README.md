@@ -1,104 +1,105 @@
-# 📌 ExpressVPN Landing Page (Frontend Project)
+# 🔐 ExpressVPN Landing Page (Frontend Project)
 
-A fully responsive **ExpressVPN-style landing page** built using **HTML, CSS**, and **Font Awesome Icons**.
-This project showcases a modern UI design with a clean layout, animations, and mobile-friendly navigation.
+A modern and fully responsive **ExpressVPN-inspired landing page** built using **HTML, CSS, and JavaScript**.
+This project focuses on clean UI design, smooth animations, responsive layouts, and interactive components.
 
----
-
-## 🚀 Features
-
-### ✔ Modern UI/UX Design
-
-* Clean and attractive layout similar to ExpressVPN.
-* Smooth hover animations and shadows for better user experience.
-
-### ✔ Fully Responsive
-
-* Works on all screen sizes (desktop → tablet → mobile).
-* Mobile navigation menu with a hamburger toggle.
-
-### ✔ Sections Included
-
-* **Header & Navigation Bar**
-* **Hero Section** with CTA
-* **Features Section**
-* **Benefits Section**
-* **Footer with useful links & social icons**
-
-### ✔ Icons & Fonts
-
-* Uses **Font Awesome 6** for icons
-* Uses **Google Font — Inter** for modern typography
+📌 **Developed as part of the Oasis Infobyte Web Development Internship**, this project demonstrates real-world frontend development skills and best UI/UX practices.
 
 ---
 
-## 🛠 Technologies Used
+## 🚀 Project Features
 
-| Technology               | Purpose                         |
-| ------------------------ | ------------------------------- |
-| **HTML5**                | Structure of the webpage        |
-| **CSS3**                 | Styling, layout, responsiveness |
-| **Font Awesome**         | Icons                           |
-| **Google Fonts (Inter)** | Text styling                    |
+### ✅ Responsive Design
+
+* Works smoothly on **desktop, tablet, and mobile devices**
+* Mobile-friendly navigation with **hamburger menu**
+
+### ✅ Modern UI/UX
+
+* Clean and professional layout
+* Gradient backgrounds and smooth hover effects
+* Well-structured sections inspired by real-world SaaS websites
+
+### ✅ Interactive Components
+
+* FAQ accordion section
+* Smooth scrolling navigation
+* Mobile menu toggle with JavaScript
+
+### ✅ Website Sections
+
+* Hero Section with CTA
+* Features Section
+* Benefits Section
+* FAQ Section
+* Footer with social icons and links
 
 ---
 
-## 📂 Project Structure
+## 🛠️ Technologies Used
+
+| Technology               | Description                         |
+| ------------------------ | ----------------------------------- |
+| **HTML5**                | Page structure and semantic layout  |
+| **CSS3**                 | Styling, animations, responsiveness |
+| **JavaScript**           | Interactivity and DOM manipulation  |
+| **Font Awesome**         | Icons                               |
+| **Google Fonts (Inter)** | Typography                          |
+
+---
+
+## 📁 Project Structure
 
 ```
-📁 project-folder
-│── index.html
-│── style.css
-│── script.js  (optional / if you add menu toggle)
+📦 ExpressVPN-Landing-Page
+├── index.html
+├── style.css
+├── script.js
 └── README.md
 ```
 
-### `index.html`
+### 📄 index.html
 
-Contains the layout for all sections: header, hero, features, benefits, and footer.
-Ref: 
+Contains the full structure of the landing page including all sections such as hero, features, benefits, FAQ, and footer.
 
-### `style.css`
 
-Handles all styling — colors, layout, fonts, responsiveness, animations.
-Ref: 
+### 🎨 style.css
 
----
+Handles complete UI styling, layout design, responsiveness, colors, fonts, and animations.
 
-## 📸 Preview (What This Project Looks Like)
 
-* Hero section with attractive CTA
-* Feature cards with icons
-* Benefits section
-* Clean footer with links
+### ⚙️ script.js
+
+Implements mobile menu toggle, smooth scrolling, and FAQ accordion functionality.
+
 
 ---
 
-## ⚙️ How to Run the Project
+## ▶️ How to Run the Project
 
-1. Download or clone the repository:
+1. Clone the repository:
 
-```
-git clone https://github.com/your-username/your-repo-name.git
+```bash
+git clone https://github.com/your-username/expressvpn-landing-page.git
 ```
 
-2. Open the folder.
+2. Open the project folder
+3. Double-click **index.html**
+4. View the website in your browser
 
-3. Double-click on **index.html** to open it in a browser.
-
-No installations required.
+✅ No installation or dependencies required.
 
 ---
 
-## 🤝 Contributing
+## 📌 Disclaimer
 
-Feel free to fork this repository and submit pull requests if you want to improve UI/UX or add functionalities.
+This project is **for educational and internship purposes only**.
+It is **not an official ExpressVPN website**.
 
 ---
 
 ## 📜 License
 
-This project is for **educational & practice purposes only**.
-It is **not an official ExpressVPN website**.
+This project is open for learning and practice purposes.
 
 ---
